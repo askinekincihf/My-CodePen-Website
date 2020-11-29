@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Indulge Yourself Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfGoO48QFRVVAC_q7zeTKwLMEZmmA5Y5zG2g&usqp=CAU"
+        alt="Indulge Yourself Logo"
+      />
+      <h1>Indulge Yourself</h1>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#Trips">Trips</a>
+        <a class="nav-link" href="#video">Selections</a>
+        <a class="nav-link" href="#BestDeals">Best Deals</a>
+      </nav>
+    </header>
+
+    <div id="container">
+      <h2>It's time to travel around the world!</h2>
+      <form
+        id="form"
+        method="post"
+        action="https://www.freecodecamp.com/email-submit"
+      >
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Please enter your email"
+          required
+        />
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div id="Trips">
+      <div class="icon">
+        <i class="fas fa-suitcase" style="font-size: 40px; color: black"></i>
+      </div>
+      <h2>Trips</h2>
+      <p>
+        Our Journeys trips, offered in partnership with G Adventures, blend fun,
+        hands-on exploration, meaningful encounters with people and cultures,
+        and more free time and choices—with the structure and security of
+        traveling in a small group all at an unbeatable value.
+      </p>
+      <br /><br />
+      <div class="icon">
+        <i class="fas fa-bus-alt" style="font-size: 40px; color: black"></i>
+      </div>
+      <h2>Selections</h2>
+      <ul>
+        <li>Safari Tours</li>
+        <li>Ski&Snowboard Tours</li>
+        <li>Cruise Holidays</li>
+        <li>Polar Tours</li>
+        <li>Adventure Experience</li>
+        <li>And Much More...</li>
+      </ul>
+      <br />
+
+      <iframe
+        id="video"
+        src="https://www.youtube.com/embed/cRkFYSlTPnE"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        width="560"
+        height="315"
+        allowfullscreen
+      ></iframe
+      ><br />
+    </div>
+
+    <section id="BestDeals">
+      <div class="deals-wrapper">
+        <div class="option">
+          <strong>Discover<br />Brazil, Argentina&Chile</strong>
+        </div>
+        <img
+          src="https://www.southerncrossings.com/wp-content/uploads/2014/06/brazil1.jpg"
+          width="250"
+          height="160"
+          alt="Discover Brazil, Argentina & Chile"
+        />
+        <h3>16 Days From $6,099</h3>
+        <ul>
+          <li>
+            Take a tango lesson in Buenos Aires and samba your way around Rio de
+            Janeiro, home of the famed Carnival.
+          </li>
+          <li>
+            Seek out extraordinary wildlife in the
+            <a href="https://en.wikipedia.org/wiki/Pantanal" target="_blank"
+              >Pantanal</a
+            >, the world’s largest area of tropical wetland.
+          </li>
+        </ul>
+        <button class="btn"><strong>More</strong></button>
+      </div>
+
+      <div class="deals-wrapper">
+        <div class="option">
+          <strong>Explore<br />Costa Rica</strong>
+        </div>
+        <img
+          src="https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/north-america/caribbean/costa-rica/costa-rica-travel.jpg"
+          width="250"
+          height="160"
+          alt="Explore Costa Rica"
+        />
+        <h3>14 Days From $2,399</h3>
+        <ul>
+          <li>
+            Navigate the jungle-lined canals of Tortuguero National Park,
+            spotting caimans, howler monkeys, sloths, and other fascinating
+            wildlife.
+          </li>
+          <li>
+            Tour a G Adventures–supported coffee cooperative, and learn to make
+            tortillas.
+          </li>
+        </ul>
+        <button class="btn"><strong>More</strong></button>
+      </div>
+
+      <div class="deals-wrapper">
+        <div class="option">
+          <strong>Discover<br />Southeast Asia</strong>
+        </div>
+        <img
+          src="https://media.nomadicmatt.com/2020/chiangmaivisit1.jpg"
+          width="250"
+          height="160"
+          alt="Discover Southeast Asia"
+        />
+        <h3>18 Days From $4,199</h3>
+        <ul>
+          <li>
+            Experience the vibrant cultures and historical treasures of
+            <a href="https://en.wikipedia.org/wiki/Thailand" target="_blank"
+              >Thailand</a
+            >, Laos, Vietnam, and Cambodia.
+          </li>
+          <li>
+            Glide along Bangkok’s bustling canals and venture into Chiang Mai’s
+            night markets.
+          </li>
+        </ul>
+        <button class="btn"><strong>More</strong></button>
+      </div>
+    </section>
+    <br />
+    <footer>
+      <span><strong>&copy; Designed by Indulge Yourself Inc.</strong></span>
+    </footer>
+  </body>
+</html>
